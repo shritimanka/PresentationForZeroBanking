@@ -1,0 +1,10 @@
+functionaltestcases\PaySavedPayeeTestCase.class
+datadriventestcases\AddPayee_datadriven.class
+functionaltestcases\AddPayeeTestCase.class
+functionaltestcases\FindTransactionTestCase.class
+functionaltestcases\ShowTransactionTestCase.class
+datadriventestcases\LoginDataDriven.class
+functionaltestcases\LoginTestCase.class
+functionaltestcases\AccountSummaryTestCase.class
+functionaltestcases\PurchaseFCurrencyTestCase.class
+functionaltestcases\TransferFundTestCase.class

@@ -1,0 +1,1067 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">3 suites, 3 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-Login">
+              <span class="suite-name border-failed">Login</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-Login">
+                    <span>C:\Users\vmank\QAWorkspace\PresentationForZeroBanking\src\test\resources\runner\Login_data-driven.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-Login">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-Login">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-Login">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-Login">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Login">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-Login">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">5 methods, 3 failed,   2 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Login" class="hide-methods failed suite-Login"> (hide)</a> <!-- hide-methods failed suite-Login -->
+                      <a href="#" panel-name="suite-Login" class="show-methods failed suite-Login"> (show)</a> <!-- show-methods failed suite-Login -->
+                    </span>
+                    <div class="method-list-content failed suite-Login">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Login" title="datadriventestcases.LoginDataDriven" hash-for-method="login(dffg, sdffdf)">login(dffg, sdffdf)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Login" title="datadriventestcases.LoginDataDriven" hash-for-method="login(username, cvcc)">login(username, cvcc)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Login" title="datadriventestcases.LoginDataDriven" hash-for-method="login(dfg, rtr)">login(dfg, rtr)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Login -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Login" class="hide-methods passed suite-Login"> (hide)</a> <!-- hide-methods passed suite-Login -->
+                      <a href="#" panel-name="suite-Login" class="show-methods passed suite-Login"> (show)</a> <!-- show-methods passed suite-Login -->
+                    </span>
+                    <div class="method-list-content passed suite-Login">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Login" title="datadriventestcases.LoginDataDriven" hash-for-method="asign">asign</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Login" title="datadriventestcases.LoginDataDriven" hash-for-method="login(username, password)">login(username, password)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Login -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-Presentation_for_ZeroBanking">
+              <span class="suite-name border-passed">Presentation for ZeroBanking</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-Presentation_for_ZeroBanking">
+                    <span>C:\Users\vmank\QAWorkspace\PresentationForZeroBanking\src\test\resources\runner\Regression.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-Presentation_for_ZeroBanking">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-Presentation_for_ZeroBanking">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-Presentation_for_ZeroBanking">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-Presentation_for_ZeroBanking">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Presentation_for_ZeroBanking">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-Presentation_for_ZeroBanking">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">7 methods,   7 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Presentation_for_ZeroBanking" class="hide-methods passed suite-Presentation_for_ZeroBanking"> (hide)</a> <!-- hide-methods passed suite-Presentation_for_ZeroBanking -->
+                      <a href="#" panel-name="suite-Presentation_for_ZeroBanking" class="show-methods passed suite-Presentation_for_ZeroBanking"> (show)</a> <!-- show-methods passed suite-Presentation_for_ZeroBanking -->
+                    </span>
+                    <div class="method-list-content passed suite-Presentation_for_ZeroBanking">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Presentation_for_ZeroBanking" title="functionaltestcases.AddPayeeTestCase" hash-for-method="Addpayee">Addpayee</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Presentation_for_ZeroBanking" title="functionaltestcases.FindTransactionTestCase" hash-for-method="Findtr">Findtr</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Presentation_for_ZeroBanking" title="functionaltestcases.PaySavedPayeeTestCase" hash-for-method="PayPayee">PayPayee</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Presentation_for_ZeroBanking" title="functionaltestcases.PurchaseFCurrencyTestCase" hash-for-method="PurchaseCur">PurchaseCur</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Presentation_for_ZeroBanking" title="functionaltestcases.AccountSummaryTestCase" hash-for-method="showAcc">showAcc</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Presentation_for_ZeroBanking" title="functionaltestcases.ShowTransactionTestCase" hash-for-method="showtr">showtr</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Presentation_for_ZeroBanking" title="functionaltestcases.TransferFundTestCase" hash-for-method="transferfunds">transferfunds</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Presentation_for_ZeroBanking -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-Addpayee">
+              <span class="suite-name border-passed">Addpayee</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-Addpayee">
+                    <span>C:\Users\vmank\QAWorkspace\PresentationForZeroBanking\src\test\resources\runner\AddPayee_Function.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-Addpayee">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-Addpayee">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-Addpayee">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-Addpayee">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Addpayee">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-Addpayee">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">6 methods,   6 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Addpayee" class="hide-methods passed suite-Addpayee"> (hide)</a> <!-- hide-methods passed suite-Addpayee -->
+                      <a href="#" panel-name="suite-Addpayee" class="show-methods passed suite-Addpayee"> (show)</a> <!-- show-methods passed suite-Addpayee -->
+                    </span>
+                    <div class="method-list-content passed suite-Addpayee">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Addpayee" title="datadriventestcases.AddPayee_datadriven" hash-for-method="Addpayee(EDI Mrk, Toronto, VD43545fd, car insurance)">Addpayee(EDI Mrk, Toronto, VD43545fd, car insurance)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Addpayee" title="datadriventestcases.AddPayee_datadriven" hash-for-method="Addpayee(GoodLife, Glenerin dr, Mississauga, QWvgbfhj54656765, Gim)">Addpayee(GoodLife, Glenerin dr, Mississauga, QWvgbfhj54656765, Gim)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Addpayee" title="datadriventestcases.AddPayee_datadriven" hash-for-method="Addpayee(XMMSpkds, Ottawa, RDvbfghdf, charity)">Addpayee(XMMSpkds, Ottawa, RDvbfghdf, charity)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Addpayee" title="datadriventestcases.AddPayee_datadriven" hash-for-method="Addpayee(Spirit of Maths, 3124 Dukins dr, Mississauga, ASW34455SDf, Maths Classes)">Addpayee(Spirit of Maths, 3124 Dukins dr, Mississauga, ASW34455SDf, Maths Classes)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Addpayee" title="datadriventestcases.AddPayee_datadriven" hash-for-method="asign">asign</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Addpayee" title="datadriventestcases.AddPayee_datadriven" hash-for-method="endpayee">endpayee</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Addpayee -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Login" class="panel Login">
+          <div class="suite-Login-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">datadriventestcases.LoginDataDriven</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="login(dffg, sdffdf)">
+                  </a> <!-- login(dffg, sdffdf) -->
+                  <span class="method-name">login</span>
+                  <span class="parameters">(dffg, sdffdf)</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [Zero - Log in] but found [Zero - Account Summary]
+	at datadriventestcases.LoginDataDriven.login(LoginDataDriven.java:32)
+... Removed 35 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="login(username, cvcc)">
+                  </a> <!-- login(username, cvcc) -->
+                  <span class="method-name">login</span>
+                  <span class="parameters">(username, cvcc)</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [Zero - Log in] but found [Zero - Account Summary]
+	at datadriventestcases.LoginDataDriven.login(LoginDataDriven.java:32)
+... Removed 35 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="login(dfg, rtr)">
+                  </a> <!-- login(dfg, rtr) -->
+                  <span class="method-name">login</span>
+                  <span class="parameters">(dfg, rtr)</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [Zero - Log in] but found [Zero - Account Summary]
+	at datadriventestcases.LoginDataDriven.login(LoginDataDriven.java:32)
+... Removed 35 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Login-class-failed -->
+          <div class="suite-Login-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">datadriventestcases.LoginDataDriven</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="asign">
+                  </a> <!-- asign -->
+                  <span class="method-name">asign</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="login(username, password)">
+                  </a> <!-- login(username, password) -->
+                  <span class="method-name">login</span>
+                  <span class="parameters">(username, password)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Login-class-passed -->
+        </div> <!-- panel Login -->
+        <div panel-name="suite-Presentation_for_ZeroBanking" class="panel Presentation_for_ZeroBanking">
+          <div class="suite-Presentation_for_ZeroBanking-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">functionaltestcases.PurchaseFCurrencyTestCase</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="PurchaseCur">
+                  </a> <!-- PurchaseCur -->
+                  <span class="method-name">PurchaseCur</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Presentation_for_ZeroBanking-class-passed -->
+          <div class="suite-Presentation_for_ZeroBanking-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">functionaltestcases.ShowTransactionTestCase</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="showtr">
+                  </a> <!-- showtr -->
+                  <span class="method-name">showtr</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Presentation_for_ZeroBanking-class-passed -->
+          <div class="suite-Presentation_for_ZeroBanking-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">functionaltestcases.AddPayeeTestCase</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Addpayee">
+                  </a> <!-- Addpayee -->
+                  <span class="method-name">Addpayee</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Presentation_for_ZeroBanking-class-passed -->
+          <div class="suite-Presentation_for_ZeroBanking-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">functionaltestcases.TransferFundTestCase</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="transferfunds">
+                  </a> <!-- transferfunds -->
+                  <span class="method-name">transferfunds</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Presentation_for_ZeroBanking-class-passed -->
+          <div class="suite-Presentation_for_ZeroBanking-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">functionaltestcases.AccountSummaryTestCase</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="showAcc">
+                  </a> <!-- showAcc -->
+                  <span class="method-name">showAcc</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Presentation_for_ZeroBanking-class-passed -->
+          <div class="suite-Presentation_for_ZeroBanking-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">functionaltestcases.PaySavedPayeeTestCase</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="PayPayee">
+                  </a> <!-- PayPayee -->
+                  <span class="method-name">PayPayee</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Presentation_for_ZeroBanking-class-passed -->
+          <div class="suite-Presentation_for_ZeroBanking-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">functionaltestcases.FindTransactionTestCase</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Findtr">
+                  </a> <!-- Findtr -->
+                  <span class="method-name">Findtr</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Presentation_for_ZeroBanking-class-passed -->
+        </div> <!-- panel Presentation_for_ZeroBanking -->
+        <div panel-name="suite-Addpayee" class="panel Addpayee">
+          <div class="suite-Addpayee-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">datadriventestcases.AddPayee_datadriven</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Addpayee(EDI Mrk, Toronto, VD43545fd, car insurance)">
+                  </a> <!-- Addpayee(EDI Mrk, Toronto, VD43545fd, car insurance) -->
+                  <span class="method-name">Addpayee</span>
+                  <span class="parameters">(EDI Mrk, Toronto, VD43545fd, car insurance)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Addpayee(GoodLife, Glenerin dr, Mississauga, QWvgbfhj54656765, Gim)">
+                  </a> <!-- Addpayee(GoodLife, Glenerin dr, Mississauga, QWvgbfhj54656765, Gim) -->
+                  <span class="method-name">Addpayee</span>
+                  <span class="parameters">(GoodLife, Glenerin dr, Mississauga, QWvgbfhj54656765, Gim)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Addpayee(XMMSpkds, Ottawa, RDvbfghdf, charity)">
+                  </a> <!-- Addpayee(XMMSpkds, Ottawa, RDvbfghdf, charity) -->
+                  <span class="method-name">Addpayee</span>
+                  <span class="parameters">(XMMSpkds, Ottawa, RDvbfghdf, charity)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Addpayee(Spirit of Maths, 3124 Dukins dr, Mississauga, ASW34455SDf, Maths Classes)">
+                  </a> <!-- Addpayee(Spirit of Maths, 3124 Dukins dr, Mississauga, ASW34455SDf, Maths Classes) -->
+                  <span class="method-name">Addpayee</span>
+                  <span class="parameters">(Spirit of Maths, 3124 Dukins dr, Mississauga, ASW34455SDf, Maths Classes)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="asign">
+                  </a> <!-- asign -->
+                  <span class="method-name">asign</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="endpayee">
+                  </a> <!-- endpayee -->
+                  <span class="method-name">endpayee</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Addpayee-class-passed -->
+        </div> <!-- panel Addpayee -->
+        <div panel-name="test-xml-Login" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\vmank\QAWorkspace\PresentationForZeroBanking\src\test\resources\runner\Login_data-driven.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot; name=&quot;Login&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;listeners.CustomListeners&quot;/&gt;
+    &lt;listener class-name=&quot;org.uncommons.reportng.HTMLReporter&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test thread-count=&quot;5&quot; verbose=&quot;0&quot; name=&quot;Login_data-driven&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;datadriventestcases.LoginDataDriven&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Login_data-driven --&gt;
+&lt;/suite&gt; &lt;!-- Login --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="test-xml-Presentation_for_ZeroBanking" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\vmank\QAWorkspace\PresentationForZeroBanking\src\test\resources\runner\Regression.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot; name=&quot;Presentation for ZeroBanking&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;listeners.CustomListeners&quot;/&gt;
+    &lt;listener class-name=&quot;org.uncommons.reportng.HTMLReporter&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test thread-count=&quot;5&quot; verbose=&quot;0&quot; name=&quot;Regression&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;functionaltestcases.AccountSummaryTestCase&quot;/&gt;
+      &lt;class name=&quot;functionaltestcases.AddPayeeTestCase&quot;/&gt;
+      &lt;class name=&quot;functionaltestcases.PurchaseFCurrencyTestCase&quot;/&gt;
+      &lt;class name=&quot;functionaltestcases.ShowTransactionTestCase&quot;/&gt;
+      &lt;class name=&quot;functionaltestcases.FindTransactionTestCase&quot;/&gt;
+      &lt;class name=&quot;functionaltestcases.PaySavedPayeeTestCase&quot;/&gt;
+      &lt;class name=&quot;functionaltestcases.TransferFundTestCase&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Regression --&gt;
+&lt;/suite&gt; &lt;!-- Presentation for ZeroBanking --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="test-xml-Addpayee" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\vmank\QAWorkspace\PresentationForZeroBanking\src\test\resources\runner\AddPayee_Function.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot; name=&quot;Addpayee&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;listeners.CustomListeners&quot;/&gt;
+    &lt;listener class-name=&quot;org.uncommons.reportng.HTMLReporter&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test thread-count=&quot;5&quot; verbose=&quot;0&quot; name=&quot;Addpayee_Function&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;datadriventestcases.AddPayee_datadriven&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Addpayee_Function --&gt;
+&lt;/suite&gt; &lt;!-- Addpayee --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Login" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Login</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Login_data-driven (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Presentation_for_ZeroBanking" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Presentation for ZeroBanking</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Regression (7 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Addpayee" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Addpayee</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Addpayee_Function (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Login" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Login</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Presentation_for_ZeroBanking" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Presentation for ZeroBanking</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Addpayee" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Addpayee</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Login" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Login</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Login');
+function tableData_Login() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(5);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'asign')
+data.setCell(0, 2, 'datadriventestcases.LoginDataDriven')
+data.setCell(0, 3, 6702);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'login')
+data.setCell(1, 2, 'datadriventestcases.LoginDataDriven')
+data.setCell(1, 3, 1852);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'login')
+data.setCell(2, 2, 'datadriventestcases.LoginDataDriven')
+data.setCell(2, 3, 625);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'login')
+data.setCell(3, 2, 'datadriventestcases.LoginDataDriven')
+data.setCell(3, 3, 449);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'login')
+data.setCell(4, 2, 'datadriventestcases.LoginDataDriven')
+data.setCell(4, 3, 375);
+window.suiteTableData['Login']= { tableData: data, tableDiv: 'times-div-Login'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 10 seconds</span>
+              <div id="times-div-Login">
+              </div> <!-- times-div-Login -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Presentation_for_ZeroBanking" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Presentation for ZeroBanking</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Presentation_for_ZeroBanking');
+function tableData_Presentation_for_ZeroBanking() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(7);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'showAcc')
+data.setCell(0, 2, 'functionaltestcases.AccountSummaryTestCase')
+data.setCell(0, 3, 13326);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'showtr')
+data.setCell(1, 2, 'functionaltestcases.ShowTransactionTestCase')
+data.setCell(1, 3, 12414);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'Findtr')
+data.setCell(2, 2, 'functionaltestcases.FindTransactionTestCase')
+data.setCell(2, 3, 10147);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'PayPayee')
+data.setCell(3, 2, 'functionaltestcases.PaySavedPayeeTestCase')
+data.setCell(3, 3, 9877);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'PurchaseCur')
+data.setCell(4, 2, 'functionaltestcases.PurchaseFCurrencyTestCase')
+data.setCell(4, 3, 9305);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'transferfunds')
+data.setCell(5, 2, 'functionaltestcases.TransferFundTestCase')
+data.setCell(5, 3, 8154);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'Addpayee')
+data.setCell(6, 2, 'functionaltestcases.AddPayeeTestCase')
+data.setCell(6, 3, 7223);
+window.suiteTableData['Presentation_for_ZeroBanking']= { tableData: data, tableDiv: 'times-div-Presentation_for_ZeroBanking'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 1 minutes</span>
+              <div id="times-div-Presentation_for_ZeroBanking">
+              </div> <!-- times-div-Presentation_for_ZeroBanking -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Addpayee" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Addpayee</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Addpayee');
+function tableData_Addpayee() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(6);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'asign')
+data.setCell(0, 2, 'datadriventestcases.AddPayee_datadriven')
+data.setCell(0, 3, 6467);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'Addpayee')
+data.setCell(1, 2, 'datadriventestcases.AddPayee_datadriven')
+data.setCell(1, 3, 1365);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'Addpayee')
+data.setCell(2, 2, 'datadriventestcases.AddPayee_datadriven')
+data.setCell(2, 3, 1254);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'Addpayee')
+data.setCell(3, 2, 'datadriventestcases.AddPayee_datadriven')
+data.setCell(3, 3, 1082);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'Addpayee')
+data.setCell(4, 2, 'datadriventestcases.AddPayee_datadriven')
+data.setCell(4, 3, 911);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'endpayee')
+data.setCell(5, 2, 'datadriventestcases.AddPayee_datadriven')
+data.setCell(5, 3, 674);
+window.suiteTableData['Addpayee']= { tableData: data, tableDiv: 'times-div-Addpayee'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 11 seconds</span>
+              <div id="times-div-Addpayee">
+              </div> <!-- times-div-Addpayee -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Login" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Login</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">login(dffg, sdffdf)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Click to see Screenshot</span>
+                <span class="reporter-method-output"><a target="_blank" href=Wed_Dec_04_16_11_35_EST_2019.jpg>Screenshot</a></span>
+                <span class="reporter-method-output"><br></span>
+                <span class="reporter-method-output"><br></span>
+                <span class="reporter-method-output"><a target="_blank" href=Wed_Dec_04_16_11_35_EST_2019.jpg><img src=Wed_Dec_04_16_11_35_EST_2019.jpg height=200 width=200></img></a></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">login(username, cvcc)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Click to see Screenshot</span>
+                <span class="reporter-method-output"><a target="_blank" href=Wed_Dec_04_16_11_33_EST_2019.jpg>Screenshot</a></span>
+                <span class="reporter-method-output"><br></span>
+                <span class="reporter-method-output"><br></span>
+                <span class="reporter-method-output"><a target="_blank" href=Wed_Dec_04_16_11_33_EST_2019.jpg><img src=Wed_Dec_04_16_11_33_EST_2019.jpg height=200 width=200></img></a></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">login(dfg, rtr)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Click to see Screenshot</span>
+                <span class="reporter-method-output"><a target="_blank" href=Wed_Dec_04_16_11_34_EST_2019.jpg>Screenshot</a></span>
+                <span class="reporter-method-output"><br></span>
+                <span class="reporter-method-output"><br></span>
+                <span class="reporter-method-output"><a target="_blank" href=Wed_Dec_04_16_11_34_EST_2019.jpg><img src=Wed_Dec_04_16_11_34_EST_2019.jpg height=200 width=200></img></a></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Presentation_for_ZeroBanking" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Presentation for ZeroBanking</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Addpayee" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Addpayee</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Login" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Presentation_for_ZeroBanking" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Addpayee" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Login" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">datadriventestcases.LoginDataDriven</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">asign</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">login(username, cvcc)</span>
+                <span class="method-start">10947 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">login(dfg, rtr)</span>
+                <span class="method-start">12183 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">login(dffg, sdffdf)</span>
+                <span class="method-start">12994 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">login(username, password)</span>
+                <span class="method-start">13978 ms</span>
+              </div> <!-- test-method -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Presentation_for_ZeroBanking" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">functionaltestcases.AccountSummaryTestCase</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">showAcc</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">functionaltestcases.AddPayeeTestCase</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">Addpayee</span>
+                <span class="method-start">13380 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">functionaltestcases.PurchaseFCurrencyTestCase</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">PurchaseCur</span>
+                <span class="method-start">20682 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">functionaltestcases.ShowTransactionTestCase</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">showtr</span>
+                <span class="method-start">30044 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">functionaltestcases.FindTransactionTestCase</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">Findtr</span>
+                <span class="method-start">42539 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">functionaltestcases.PaySavedPayeeTestCase</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">PayPayee</span>
+                <span class="method-start">52766 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">functionaltestcases.TransferFundTestCase</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">transferfunds</span>
+                <span class="method-start">62702 ms</span>
+              </div> <!-- test-method -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Addpayee" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">datadriventestcases.AddPayee_datadriven</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">asign</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Addpayee(Spirit of Maths, 3124 Dukins dr, Mississauga, ASW34455SDf, Maths Classes)</span>
+                <span class="method-start">6572 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Addpayee(GoodLife, Glenerin dr, Mississauga, QWvgbfhj54656765, Gim)</span>
+                <span class="method-start">7726 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Addpayee(EDI Mrk, Toronto, VD43545fd, car insurance)</span>
+                <span class="method-start">8687 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Addpayee(XMMSpkds, Ottawa, RDvbfghdf, charity)</span>
+                <span class="method-start">10059 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">endpayee</span>
+                <span class="method-start">11499 ms</span>
+              </div> <!-- test-method -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>
