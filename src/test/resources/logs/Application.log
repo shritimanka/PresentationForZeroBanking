@@ -1,105 +1,151 @@
-04/12/2019 16:18:46 busyQALogger Launching Chrome Browser
-04/12/2019 16:18:48 busyQALogger click Sign In button
-04/12/2019 16:18:48 busyQALogger type username
-04/12/2019 16:18:48 busyQALogger type password
-04/12/2019 16:18:49 busyQALogger click submit button
-04/12/2019 16:18:49 busyQALogger click Account Summary Button
-04/12/2019 16:18:49 busyQALogger click 1st Savings  Button
-04/12/2019 16:18:50 busyQALogger click Account Summary Button
-04/12/2019 16:18:50 busyQALogger click 2nd Savings  Button
-04/12/2019 16:18:50 busyQALogger click Account Summary Button
-04/12/2019 16:18:51 busyQALogger click Brokerage  Button
-04/12/2019 16:18:51 busyQALogger click Account Summary Button
-04/12/2019 16:18:51 busyQALogger click Checking Button
-04/12/2019 16:18:52 busyQALogger click Account Summary Button
-04/12/2019 16:18:52 busyQALogger click Credit Card  Button
-04/12/2019 16:18:54 busyQALogger Closing Browser
-04/12/2019 16:18:57 busyQALogger Launching Chrome Browser
-04/12/2019 16:18:58 busyQALogger click Sign In button
-04/12/2019 16:18:59 busyQALogger type username
-04/12/2019 16:18:59 busyQALogger type password
-04/12/2019 16:18:59 busyQALogger click submit button
-04/12/2019 16:18:59 busyQALogger Click Paybill button
-04/12/2019 16:19:00 busyQALogger Click Add new payee button
-04/12/2019 16:19:00 busyQALogger Type new payee name
-04/12/2019 16:19:00 busyQALogger Type new payee address
-04/12/2019 16:19:00 busyQALogger Type new payee account number
-04/12/2019 16:19:00 busyQALogger Type new payee details
-04/12/2019 16:19:00 busyQALogger Click add button
-04/12/2019 16:19:01 busyQALogger Closing Browser
-04/12/2019 16:19:04 busyQALogger Launching Chrome Browser
-04/12/2019 16:19:06 busyQALogger click Sign In button
-04/12/2019 16:19:07 busyQALogger type username
-04/12/2019 16:19:07 busyQALogger type password
-04/12/2019 16:19:07 busyQALogger click submit button
-04/12/2019 16:19:08 busyQALogger Click Paybill button
-04/12/2019 16:19:08 busyQALogger Click Puchase foreign currency button
-04/12/2019 16:19:08 busyQALogger Select currency button
-04/12/2019 16:19:09 busyQALogger Enter the amount
-04/12/2019 16:19:09 busyQALogger checking scenario ans clicking in/not in dollars
-04/12/2019 16:19:09 busyQALogger Click calculate button
-04/12/2019 16:19:09 busyQALogger Click Puchase  button
-04/12/2019 16:19:09 busyQALogger Click Paybill button
-04/12/2019 16:19:10 busyQALogger Click Puchase foreign currency button
-04/12/2019 16:19:10 busyQALogger Select currency button
-04/12/2019 16:19:10 busyQALogger Enter the amount
-04/12/2019 16:19:10 busyQALogger checking scenario ans clicking in/not in dollars
-04/12/2019 16:19:10 busyQALogger Click calculate button
-04/12/2019 16:19:10 busyQALogger Click Puchase  button
-04/12/2019 16:19:11 busyQALogger Closing Browser
-04/12/2019 16:19:14 busyQALogger Launching Chrome Browser
-04/12/2019 16:19:16 busyQALogger click Sign In button
-04/12/2019 16:19:16 busyQALogger type username
-04/12/2019 16:19:16 busyQALogger type password
-04/12/2019 16:19:16 busyQALogger click submit button
-04/12/2019 16:19:17 busyQALogger Click Account Activity  button
-04/12/2019 16:19:18 busyQALogger Click Show transaction button
-04/12/2019 16:19:18 busyQALogger waiting 
-04/12/2019 16:19:19 busyQALogger waiting 
-04/12/2019 16:19:20 busyQALogger waiting 
-04/12/2019 16:19:20 busyQALogger waiting 
-04/12/2019 16:19:21 busyQALogger waiting 
-04/12/2019 16:19:22 busyQALogger Closing Browser
-04/12/2019 16:19:24 busyQALogger Launching Chrome Browser
-04/12/2019 16:19:26 busyQALogger click Sign In button
-04/12/2019 16:19:26 busyQALogger type username
-04/12/2019 16:19:27 busyQALogger type password
-04/12/2019 16:19:27 busyQALogger click submit button
-04/12/2019 16:19:27 busyQALogger Click Account Activity button
-04/12/2019 16:19:28 busyQALogger Click Find transaction button
-04/12/2019 16:19:28 busyQALogger Enter Description
-04/12/2019 16:19:28 busyQALogger Choose From date
-04/12/2019 16:19:29 busyQALogger Choose To date
-04/12/2019 16:19:29 busyQALogger Minimum amount
-04/12/2019 16:19:29 busyQALogger Maximum Amount
-04/12/2019 16:19:29 busyQALogger Enter account type
-04/12/2019 16:19:29 busyQALogger Click find button
-04/12/2019 16:19:32 busyQALogger Closing Browser
-04/12/2019 16:19:34 busyQALogger Launching Chrome Browser
-04/12/2019 16:19:36 busyQALogger click Sign In button
-04/12/2019 16:19:36 busyQALogger type username
-04/12/2019 16:19:36 busyQALogger type password
-04/12/2019 16:19:36 busyQALogger click submit button
-04/12/2019 16:19:37 busyQALogger Click Paybill button
-04/12/2019 16:19:37 busyQALogger Click Pay saved payee button
-04/12/2019 16:19:38 busyQALogger Select the Payee name
-04/12/2019 16:19:38 busyQALogger Select the Payee account
-04/12/2019 16:19:38 busyQALogger Enter the amount
-04/12/2019 16:19:38 busyQALogger select date
-04/12/2019 16:19:38 busyQALogger Enter the description
-04/12/2019 16:19:38 busyQALogger waiting
-04/12/2019 16:19:39 busyQALogger Click Pay button
-04/12/2019 16:19:40 busyQALogger Closing Browser
-04/12/2019 16:19:42 busyQALogger Launching Chrome Browser
-04/12/2019 16:19:44 busyQALogger click Sign In button
-04/12/2019 16:19:44 busyQALogger type username
-04/12/2019 16:19:44 busyQALogger type password
-04/12/2019 16:19:45 busyQALogger click submit button
-04/12/2019 16:19:45 busyQALogger Select from account button
-04/12/2019 16:19:46 busyQALogger Select To account button
-04/12/2019 16:19:46 busyQALogger Enter amount
-04/12/2019 16:19:46 busyQALogger Enter the description
-04/12/2019 16:19:46 busyQALogger Click transfer  button
-04/12/2019 16:19:46 busyQALogger Click submit  button
-04/12/2019 16:19:46 busyQALogger Click the link 'View transfers or make another transfer'
-04/12/2019 16:19:47 busyQALogger Closing Browser
+04/12/2019 19:38:55 busyQALogger Launching Chrome Browser
+04/12/2019 19:38:57 busyQALogger click Sign In button
+04/12/2019 19:38:58 busyQALogger type username
+04/12/2019 19:38:58 busyQALogger type password
+04/12/2019 19:38:58 busyQALogger click submit button
+04/12/2019 19:38:59 busyQALogger type username
+04/12/2019 19:38:59 busyQALogger type password
+04/12/2019 19:38:59 busyQALogger click submit button
+04/12/2019 19:39:00 busyQALogger type username
+04/12/2019 19:39:00 busyQALogger type password
+04/12/2019 19:39:00 busyQALogger click submit button
+04/12/2019 19:39:01 busyQALogger type username
+04/12/2019 19:39:01 busyQALogger type password
+04/12/2019 19:39:01 busyQALogger click submit button
+04/12/2019 19:39:03 busyQALogger Closing Browser
+04/12/2019 19:39:08 busyQALogger Launching Chrome Browser
+04/12/2019 19:39:10 busyQALogger click Sign In button
+04/12/2019 19:39:11 busyQALogger type username
+04/12/2019 19:39:11 busyQALogger type password
+04/12/2019 19:39:11 busyQALogger click submit button
+04/12/2019 19:39:11 busyQALogger Click Paybill button
+04/12/2019 19:39:12 busyQALogger Click Add new payee button
+04/12/2019 19:39:12 busyQALogger Type new payee name
+04/12/2019 19:39:12 busyQALogger Type new payee address
+04/12/2019 19:39:12 busyQALogger Type new payee account number
+04/12/2019 19:39:13 busyQALogger Type new payee details
+04/12/2019 19:39:13 busyQALogger Click add button
+04/12/2019 19:39:13 busyQALogger Click Add new payee button
+04/12/2019 19:39:13 busyQALogger Type new payee name
+04/12/2019 19:39:13 busyQALogger Type new payee address
+04/12/2019 19:39:13 busyQALogger Type new payee account number
+04/12/2019 19:39:14 busyQALogger Type new payee details
+04/12/2019 19:39:14 busyQALogger Click add button
+04/12/2019 19:39:14 busyQALogger Click Add new payee button
+04/12/2019 19:39:14 busyQALogger Type new payee name
+04/12/2019 19:39:14 busyQALogger Type new payee address
+04/12/2019 19:39:14 busyQALogger Type new payee account number
+04/12/2019 19:39:15 busyQALogger Type new payee details
+04/12/2019 19:39:15 busyQALogger Click add button
+04/12/2019 19:39:15 busyQALogger Click Add new payee button
+04/12/2019 19:39:15 busyQALogger Type new payee name
+04/12/2019 19:39:15 busyQALogger Type new payee address
+04/12/2019 19:39:15 busyQALogger Type new payee account number
+04/12/2019 19:39:15 busyQALogger Type new payee details
+04/12/2019 19:39:16 busyQALogger Click add button
+04/12/2019 19:39:17 busyQALogger Closing Browser
+04/12/2019 19:39:22 busyQALogger Launching Chrome Browser
+04/12/2019 19:39:24 busyQALogger click Sign In button
+04/12/2019 19:39:24 busyQALogger type username
+04/12/2019 19:39:24 busyQALogger type password
+04/12/2019 19:39:25 busyQALogger click submit button
+04/12/2019 19:39:25 busyQALogger click Account Summary Button
+04/12/2019 19:39:25 busyQALogger click 1st Savings  Button
+04/12/2019 19:39:26 busyQALogger click Account Summary Button
+04/12/2019 19:39:26 busyQALogger click 2nd Savings  Button
+04/12/2019 19:39:27 busyQALogger click Account Summary Button
+04/12/2019 19:39:27 busyQALogger click Brokerage  Button
+04/12/2019 19:39:27 busyQALogger click Account Summary Button
+04/12/2019 19:39:27 busyQALogger click Checking Button
+04/12/2019 19:39:28 busyQALogger click Account Summary Button
+04/12/2019 19:39:28 busyQALogger click Credit Card  Button
+04/12/2019 19:39:30 busyQALogger Closing Browser
+04/12/2019 19:39:32 busyQALogger Launching Chrome Browser
+04/12/2019 19:39:35 busyQALogger click Sign In button
+04/12/2019 19:39:35 busyQALogger type username
+04/12/2019 19:39:35 busyQALogger type password
+04/12/2019 19:39:35 busyQALogger click submit button
+04/12/2019 19:39:36 busyQALogger Click Paybill button
+04/12/2019 19:39:36 busyQALogger Click Add new payee button
+04/12/2019 19:39:36 busyQALogger Type new payee name
+04/12/2019 19:39:36 busyQALogger Type new payee address
+04/12/2019 19:39:36 busyQALogger Type new payee account number
+04/12/2019 19:39:37 busyQALogger Type new payee details
+04/12/2019 19:39:37 busyQALogger Click add button
+04/12/2019 19:39:38 busyQALogger Closing Browser
+04/12/2019 19:39:40 busyQALogger Launching Chrome Browser
+04/12/2019 19:39:42 busyQALogger click Sign In button
+04/12/2019 19:39:42 busyQALogger type username
+04/12/2019 19:39:42 busyQALogger type password
+04/12/2019 19:39:42 busyQALogger click submit button
+04/12/2019 19:39:43 busyQALogger Click Paybill button
+04/12/2019 19:39:43 busyQALogger Click Puchase foreign currency button
+04/12/2019 19:39:43 busyQALogger Select currency button
+04/12/2019 19:39:44 busyQALogger Enter the amount
+04/12/2019 19:39:44 busyQALogger checking scenario ans clicking in/not in dollars
+04/12/2019 19:39:44 busyQALogger Click calculate button
+04/12/2019 19:39:44 busyQALogger Click Puchase  button
+04/12/2019 19:39:44 busyQALogger Click Paybill button
+04/12/2019 19:39:44 busyQALogger Click Puchase foreign currency button
+04/12/2019 19:39:44 busyQALogger Select currency button
+04/12/2019 19:39:45 busyQALogger Enter the amount
+04/12/2019 19:39:45 busyQALogger checking scenario ans clicking in/not in dollars
+04/12/2019 19:39:45 busyQALogger Click calculate button
+04/12/2019 19:39:45 busyQALogger Click Puchase  button
+04/12/2019 19:39:46 busyQALogger Closing Browser
+04/12/2019 19:39:48 busyQALogger Launching Chrome Browser
+04/12/2019 19:39:50 busyQALogger click Sign In button
+04/12/2019 19:39:50 busyQALogger type username
+04/12/2019 19:39:50 busyQALogger type password
+04/12/2019 19:39:50 busyQALogger click submit button
+04/12/2019 19:39:51 busyQALogger Click Account Activity  button
+04/12/2019 19:39:51 busyQALogger Click Show transaction button
+04/12/2019 19:39:52 busyQALogger waiting 
+04/12/2019 19:39:52 busyQALogger waiting 
+04/12/2019 19:39:53 busyQALogger waiting 
+04/12/2019 19:39:54 busyQALogger waiting 
+04/12/2019 19:39:55 busyQALogger waiting 
+04/12/2019 19:39:56 busyQALogger Closing Browser
+04/12/2019 19:39:58 busyQALogger Launching Chrome Browser
+04/12/2019 19:40:00 busyQALogger click Sign In button
+04/12/2019 19:40:00 busyQALogger type username
+04/12/2019 19:40:00 busyQALogger type password
+04/12/2019 19:40:00 busyQALogger click submit button
+04/12/2019 19:40:01 busyQALogger Click Account Activity button
+04/12/2019 19:40:01 busyQALogger Click Find transaction button
+04/12/2019 19:40:02 busyQALogger Enter Description
+04/12/2019 19:40:02 busyQALogger Choose From date
+04/12/2019 19:40:02 busyQALogger Choose To date
+04/12/2019 19:40:02 busyQALogger Minimum amount
+04/12/2019 19:40:02 busyQALogger Maximum Amount
+04/12/2019 19:40:03 busyQALogger Enter account type
+04/12/2019 19:40:03 busyQALogger Click find button
+04/12/2019 19:40:05 busyQALogger Closing Browser
+04/12/2019 19:40:08 busyQALogger Launching Chrome Browser
+04/12/2019 19:40:09 busyQALogger click Sign In button
+04/12/2019 19:40:10 busyQALogger type username
+04/12/2019 19:40:10 busyQALogger type password
+04/12/2019 19:40:10 busyQALogger click submit button
+04/12/2019 19:40:10 busyQALogger Click Paybill button
+04/12/2019 19:40:11 busyQALogger Click Pay saved payee button
+04/12/2019 19:40:11 busyQALogger Select the Payee name
+04/12/2019 19:40:11 busyQALogger Select the Payee account
+04/12/2019 19:40:11 busyQALogger Enter the amount
+04/12/2019 19:40:11 busyQALogger select date
+04/12/2019 19:40:11 busyQALogger Enter the description
+04/12/2019 19:40:11 busyQALogger waiting
+04/12/2019 19:40:12 busyQALogger Click Pay button
+04/12/2019 19:40:14 busyQALogger Closing Browser
+04/12/2019 19:40:16 busyQALogger Launching Chrome Browser
+04/12/2019 19:40:18 busyQALogger click Sign In button
+04/12/2019 19:40:18 busyQALogger type username
+04/12/2019 19:40:18 busyQALogger type password
+04/12/2019 19:40:18 busyQALogger click submit button
+04/12/2019 19:40:19 busyQALogger Select from account button
+04/12/2019 19:40:19 busyQALogger Select To account button
+04/12/2019 19:40:20 busyQALogger Enter amount
+04/12/2019 19:40:20 busyQALogger Enter the description
+04/12/2019 19:40:20 busyQALogger Click transfer  button
+04/12/2019 19:40:20 busyQALogger Click submit  button
+04/12/2019 19:40:20 busyQALogger Click the link 'View transfers or make another transfer'
+04/12/2019 19:40:21 busyQALogger Closing Browser

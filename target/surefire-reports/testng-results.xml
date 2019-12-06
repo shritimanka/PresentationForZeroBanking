@@ -5,7 +5,7 @@
       <![CDATA[Click to see Screenshot]]>
     </line>
     <line>
-      <![CDATA[<a target="_blank" href=Wed_Dec_04_16_11_33_EST_2019.jpg>Screenshot</a>]]>
+      <![CDATA[<a target="_blank" href=Wed_Dec_04_19_38_59_EST_2019.jpg>Screenshot</a>]]>
     </line>
     <line>
       <![CDATA[<br>]]>
@@ -14,13 +14,13 @@
       <![CDATA[<br>]]>
     </line>
     <line>
-      <![CDATA[<a target="_blank" href=Wed_Dec_04_16_11_33_EST_2019.jpg><img src=Wed_Dec_04_16_11_33_EST_2019.jpg height=200 width=200></img></a>]]>
+      <![CDATA[<a target="_blank" href=Wed_Dec_04_19_38_59_EST_2019.jpg><img src=Wed_Dec_04_19_38_59_EST_2019.jpg height=200 width=200></img></a>]]>
     </line>
     <line>
       <![CDATA[Click to see Screenshot]]>
     </line>
     <line>
-      <![CDATA[<a target="_blank" href=Wed_Dec_04_16_11_34_EST_2019.jpg>Screenshot</a>]]>
+      <![CDATA[<a target="_blank" href=Wed_Dec_04_19_39_00_EST_2019.jpg>Screenshot</a>]]>
     </line>
     <line>
       <![CDATA[<br>]]>
@@ -29,13 +29,13 @@
       <![CDATA[<br>]]>
     </line>
     <line>
-      <![CDATA[<a target="_blank" href=Wed_Dec_04_16_11_34_EST_2019.jpg><img src=Wed_Dec_04_16_11_34_EST_2019.jpg height=200 width=200></img></a>]]>
+      <![CDATA[<a target="_blank" href=Wed_Dec_04_19_39_00_EST_2019.jpg><img src=Wed_Dec_04_19_39_00_EST_2019.jpg height=200 width=200></img></a>]]>
     </line>
     <line>
       <![CDATA[Click to see Screenshot]]>
     </line>
     <line>
-      <![CDATA[<a target="_blank" href=Wed_Dec_04_16_11_35_EST_2019.jpg>Screenshot</a>]]>
+      <![CDATA[<a target="_blank" href=Wed_Dec_04_19_39_01_EST_2019.jpg>Screenshot</a>]]>
     </line>
     <line>
       <![CDATA[<br>]]>
@@ -44,19 +44,19 @@
       <![CDATA[<br>]]>
     </line>
     <line>
-      <![CDATA[<a target="_blank" href=Wed_Dec_04_16_11_35_EST_2019.jpg><img src=Wed_Dec_04_16_11_35_EST_2019.jpg height=200 width=200></img></a>]]>
+      <![CDATA[<a target="_blank" href=Wed_Dec_04_19_39_01_EST_2019.jpg><img src=Wed_Dec_04_19_39_01_EST_2019.jpg height=200 width=200></img></a>]]>
     </line>
   </reporter-output>
-  <suite name="Login" duration-ms="15961" started-at="2019-12-04T21:11:21Z" finished-at="2019-12-04T21:11:37Z">
+  <suite name="Login" duration-ms="11293" started-at="2019-12-05T00:38:51Z" finished-at="2019-12-05T00:39:03Z">
     <groups>
     </groups>
-    <test name="Login_data-driven" duration-ms="15961" started-at="2019-12-04T21:11:21Z" finished-at="2019-12-04T21:11:37Z">
+    <test name="Login_data-driven" duration-ms="11293" started-at="2019-12-05T00:38:51Z" finished-at="2019-12-05T00:39:03Z">
       <class name="datadriventestcases.LoginDataDriven">
-        <test-method status="PASS" signature="asign()[pri:0, instance:datadriventestcases.LoginDataDriven@5e7cd6cc]" name="asign" duration-ms="6702" started-at="2019-12-04T21:11:21Z" finished-at="2019-12-04T21:11:28Z">
+        <test-method status="PASS" signature="asign()[pri:0, instance:datadriventestcases.LoginDataDriven@5e7cd6cc]" name="asign" duration-ms="6027" started-at="2019-12-05T00:38:52Z" finished-at="2019-12-05T00:38:58Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- asign -->
-        <test-method status="FAIL" signature="login(java.lang.String, java.lang.String)[pri:0, instance:datadriventestcases.LoginDataDriven@5e7cd6cc]" name="login" duration-ms="625" started-at="2019-12-04T21:11:32Z" data-provider="credential" finished-at="2019-12-04T21:11:33Z">
+        <test-method status="FAIL" signature="login(java.lang.String, java.lang.String)[pri:0, instance:datadriventestcases.LoginDataDriven@5e7cd6cc]" name="login" duration-ms="560" started-at="2019-12-05T00:38:58Z" data-provider="credential" finished-at="2019-12-05T00:38:59Z">
           <params>
             <param index="0">
               <value>
@@ -119,7 +119,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:451)
               <![CDATA[Click to see Screenshot]]>
             </line>
             <line>
-              <![CDATA[<a target="_blank" href=Wed_Dec_04_16_11_33_EST_2019.jpg>Screenshot</a>]]>
+              <![CDATA[<a target="_blank" href=Wed_Dec_04_19_38_59_EST_2019.jpg>Screenshot</a>]]>
             </line>
             <line>
               <![CDATA[<br>]]>
@@ -128,11 +128,11 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:451)
               <![CDATA[<br>]]>
             </line>
             <line>
-              <![CDATA[<a target="_blank" href=Wed_Dec_04_16_11_33_EST_2019.jpg><img src=Wed_Dec_04_16_11_33_EST_2019.jpg height=200 width=200></img></a>]]>
+              <![CDATA[<a target="_blank" href=Wed_Dec_04_19_38_59_EST_2019.jpg><img src=Wed_Dec_04_19_38_59_EST_2019.jpg height=200 width=200></img></a>]]>
             </line>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method status="FAIL" signature="login(java.lang.String, java.lang.String)[pri:0, instance:datadriventestcases.LoginDataDriven@5e7cd6cc]" name="login" duration-ms="375" started-at="2019-12-04T21:11:33Z" data-provider="credential" finished-at="2019-12-04T21:11:34Z">
+        <test-method status="FAIL" signature="login(java.lang.String, java.lang.String)[pri:0, instance:datadriventestcases.LoginDataDriven@5e7cd6cc]" name="login" duration-ms="401" started-at="2019-12-05T00:38:59Z" data-provider="credential" finished-at="2019-12-05T00:39:00Z">
           <params>
             <param index="0">
               <value>
@@ -195,7 +195,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:451)
               <![CDATA[Click to see Screenshot]]>
             </line>
             <line>
-              <![CDATA[<a target="_blank" href=Wed_Dec_04_16_11_34_EST_2019.jpg>Screenshot</a>]]>
+              <![CDATA[<a target="_blank" href=Wed_Dec_04_19_39_00_EST_2019.jpg>Screenshot</a>]]>
             </line>
             <line>
               <![CDATA[<br>]]>
@@ -204,11 +204,11 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:451)
               <![CDATA[<br>]]>
             </line>
             <line>
-              <![CDATA[<a target="_blank" href=Wed_Dec_04_16_11_34_EST_2019.jpg><img src=Wed_Dec_04_16_11_34_EST_2019.jpg height=200 width=200></img></a>]]>
+              <![CDATA[<a target="_blank" href=Wed_Dec_04_19_39_00_EST_2019.jpg><img src=Wed_Dec_04_19_39_00_EST_2019.jpg height=200 width=200></img></a>]]>
             </line>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method status="FAIL" signature="login(java.lang.String, java.lang.String)[pri:0, instance:datadriventestcases.LoginDataDriven@5e7cd6cc]" name="login" duration-ms="449" started-at="2019-12-04T21:11:34Z" data-provider="credential" finished-at="2019-12-04T21:11:35Z">
+        <test-method status="FAIL" signature="login(java.lang.String, java.lang.String)[pri:0, instance:datadriventestcases.LoginDataDriven@5e7cd6cc]" name="login" duration-ms="439" started-at="2019-12-05T00:39:00Z" data-provider="credential" finished-at="2019-12-05T00:39:01Z">
           <params>
             <param index="0">
               <value>
@@ -271,7 +271,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:451)
               <![CDATA[Click to see Screenshot]]>
             </line>
             <line>
-              <![CDATA[<a target="_blank" href=Wed_Dec_04_16_11_35_EST_2019.jpg>Screenshot</a>]]>
+              <![CDATA[<a target="_blank" href=Wed_Dec_04_19_39_01_EST_2019.jpg>Screenshot</a>]]>
             </line>
             <line>
               <![CDATA[<br>]]>
@@ -280,11 +280,11 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:451)
               <![CDATA[<br>]]>
             </line>
             <line>
-              <![CDATA[<a target="_blank" href=Wed_Dec_04_16_11_35_EST_2019.jpg><img src=Wed_Dec_04_16_11_35_EST_2019.jpg height=200 width=200></img></a>]]>
+              <![CDATA[<a target="_blank" href=Wed_Dec_04_19_39_01_EST_2019.jpg><img src=Wed_Dec_04_19_39_01_EST_2019.jpg height=200 width=200></img></a>]]>
             </line>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method status="PASS" signature="login(java.lang.String, java.lang.String)[pri:0, instance:datadriventestcases.LoginDataDriven@5e7cd6cc]" name="login" duration-ms="1852" started-at="2019-12-04T21:11:35Z" data-provider="credential" finished-at="2019-12-04T21:11:37Z">
+        <test-method status="PASS" signature="login(java.lang.String, java.lang.String)[pri:0, instance:datadriventestcases.LoginDataDriven@5e7cd6cc]" name="login" duration-ms="1479" started-at="2019-12-05T00:39:01Z" data-provider="credential" finished-at="2019-12-05T00:39:03Z">
           <params>
             <param index="0">
               <value>
@@ -303,64 +303,64 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:451)
       </class> <!-- datadriventestcases.LoginDataDriven -->
     </test> <!-- Login_data-driven -->
   </suite> <!-- Login -->
-  <suite name="Presentation for ZeroBanking" duration-ms="70928" started-at="2019-12-04T21:11:56Z" finished-at="2019-12-04T21:13:07Z">
+  <suite name="Presentation for ZeroBanking" duration-ms="61921" started-at="2019-12-05T00:39:19Z" finished-at="2019-12-05T00:40:21Z">
     <groups>
     </groups>
-    <test name="Regression" duration-ms="70928" started-at="2019-12-04T21:11:56Z" finished-at="2019-12-04T21:13:07Z">
+    <test name="Regression" duration-ms="61921" started-at="2019-12-05T00:39:19Z" finished-at="2019-12-05T00:40:21Z">
       <class name="functionaltestcases.FindTransactionTestCase">
-        <test-method status="PASS" signature="Findtr()[pri:0, instance:functionaltestcases.FindTransactionTestCase@28cda624]" name="Findtr" duration-ms="10147" started-at="2019-12-04T21:12:38Z" finished-at="2019-12-04T21:12:49Z">
+        <test-method status="PASS" signature="Findtr()[pri:0, instance:functionaltestcases.FindTransactionTestCase@28cda624]" name="Findtr" duration-ms="9549" started-at="2019-12-05T00:39:56Z" finished-at="2019-12-05T00:40:05Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Findtr -->
       </class> <!-- functionaltestcases.FindTransactionTestCase -->
       <class name="functionaltestcases.ShowTransactionTestCase">
-        <test-method status="PASS" signature="showtr()[pri:0, instance:functionaltestcases.ShowTransactionTestCase@387a8303]" name="showtr" duration-ms="12414" started-at="2019-12-04T21:12:26Z" finished-at="2019-12-04T21:12:38Z">
+        <test-method status="PASS" signature="showtr()[pri:0, instance:functionaltestcases.ShowTransactionTestCase@387a8303]" name="showtr" duration-ms="9700" started-at="2019-12-05T00:39:46Z" finished-at="2019-12-05T00:39:56Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- showtr -->
       </class> <!-- functionaltestcases.ShowTransactionTestCase -->
       <class name="functionaltestcases.AddPayeeTestCase">
-        <test-method status="PASS" signature="Addpayee()[pri:0, instance:functionaltestcases.AddPayeeTestCase@7139992f]" name="Addpayee" duration-ms="7223" started-at="2019-12-04T21:12:09Z" finished-at="2019-12-04T21:12:16Z">
+        <test-method status="PASS" signature="Addpayee()[pri:0, instance:functionaltestcases.AddPayeeTestCase@7139992f]" name="Addpayee" duration-ms="7609" started-at="2019-12-05T00:39:30Z" finished-at="2019-12-05T00:39:38Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Addpayee -->
       </class> <!-- functionaltestcases.AddPayeeTestCase -->
       <class name="functionaltestcases.PurchaseFCurrencyTestCase">
-        <test-method status="PASS" signature="PurchaseCur()[pri:0, instance:functionaltestcases.PurchaseFCurrencyTestCase@69504ae9]" name="PurchaseCur" duration-ms="9305" started-at="2019-12-04T21:12:17Z" finished-at="2019-12-04T21:12:26Z">
+        <test-method status="PASS" signature="PurchaseCur()[pri:0, instance:functionaltestcases.PurchaseFCurrencyTestCase@69504ae9]" name="PurchaseCur" duration-ms="8217" started-at="2019-12-05T00:39:38Z" finished-at="2019-12-05T00:39:46Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- PurchaseCur -->
       </class> <!-- functionaltestcases.PurchaseFCurrencyTestCase -->
       <class name="functionaltestcases.AccountSummaryTestCase">
-        <test-method status="PASS" signature="showAcc()[pri:0, instance:functionaltestcases.AccountSummaryTestCase@47caedad]" name="showAcc" duration-ms="13326" started-at="2019-12-04T21:11:56Z" finished-at="2019-12-04T21:12:09Z">
+        <test-method status="PASS" signature="showAcc()[pri:0, instance:functionaltestcases.AccountSummaryTestCase@47caedad]" name="showAcc" duration-ms="10685" started-at="2019-12-05T00:39:19Z" finished-at="2019-12-05T00:39:30Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- showAcc -->
       </class> <!-- functionaltestcases.AccountSummaryTestCase -->
       <class name="functionaltestcases.TransferFundTestCase">
-        <test-method status="PASS" signature="transferfunds()[pri:0, instance:functionaltestcases.TransferFundTestCase@7eecb5b8]" name="transferfunds" duration-ms="8154" started-at="2019-12-04T21:12:59Z" finished-at="2019-12-04T21:13:07Z">
+        <test-method status="PASS" signature="transferfunds()[pri:0, instance:functionaltestcases.TransferFundTestCase@7eecb5b8]" name="transferfunds" duration-ms="7273" started-at="2019-12-05T00:40:14Z" finished-at="2019-12-05T00:40:21Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- transferfunds -->
       </class> <!-- functionaltestcases.TransferFundTestCase -->
       <class name="functionaltestcases.PaySavedPayeeTestCase">
-        <test-method status="PASS" signature="PayPayee()[pri:0, instance:functionaltestcases.PaySavedPayeeTestCase@1500b2f3]" name="PayPayee" duration-ms="9877" started-at="2019-12-04T21:12:49Z" finished-at="2019-12-04T21:12:59Z">
+        <test-method status="PASS" signature="PayPayee()[pri:0, instance:functionaltestcases.PaySavedPayeeTestCase@1500b2f3]" name="PayPayee" duration-ms="8311" started-at="2019-12-05T00:40:05Z" finished-at="2019-12-05T00:40:14Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- PayPayee -->
       </class> <!-- functionaltestcases.PaySavedPayeeTestCase -->
     </test> <!-- Regression -->
   </suite> <!-- Presentation for ZeroBanking -->
-  <suite name="Addpayee" duration-ms="12272" started-at="2019-12-04T21:11:41Z" finished-at="2019-12-04T21:11:53Z">
+  <suite name="Addpayee" duration-ms="11209" started-at="2019-12-05T00:39:06Z" finished-at="2019-12-05T00:39:17Z">
     <groups>
     </groups>
-    <test name="Addpayee_Function" duration-ms="12272" started-at="2019-12-04T21:11:41Z" finished-at="2019-12-04T21:11:53Z">
+    <test name="Addpayee_Function" duration-ms="11209" started-at="2019-12-05T00:39:06Z" finished-at="2019-12-05T00:39:17Z">
       <class name="datadriventestcases.AddPayee_datadriven">
-        <test-method status="PASS" signature="asign()[pri:1, instance:datadriventestcases.AddPayee_datadriven@1b1cfb87]" name="asign" duration-ms="6467" started-at="2019-12-04T21:11:41Z" finished-at="2019-12-04T21:11:48Z">
+        <test-method status="PASS" signature="asign()[pri:1, instance:datadriventestcases.AddPayee_datadriven@1b1cfb87]" name="asign" duration-ms="6069" started-at="2019-12-05T00:39:06Z" finished-at="2019-12-05T00:39:12Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- asign -->
-        <test-method status="PASS" signature="Addpayee(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:datadriventestcases.AddPayee_datadriven@1b1cfb87]" name="Addpayee" duration-ms="1082" started-at="2019-12-04T21:11:48Z" data-provider="credentials" finished-at="2019-12-04T21:11:49Z">
+        <test-method status="PASS" signature="Addpayee(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:datadriventestcases.AddPayee_datadriven@1b1cfb87]" name="Addpayee" duration-ms="1084" started-at="2019-12-05T00:39:12Z" data-provider="credentials" finished-at="2019-12-05T00:39:13Z">
           <params>
             <param index="0">
               <value>
@@ -386,7 +386,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:451)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Addpayee -->
-        <test-method status="PASS" signature="Addpayee(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:datadriventestcases.AddPayee_datadriven@1b1cfb87]" name="Addpayee" duration-ms="911" started-at="2019-12-04T21:11:49Z" data-provider="credentials" finished-at="2019-12-04T21:11:50Z">
+        <test-method status="PASS" signature="Addpayee(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:datadriventestcases.AddPayee_datadriven@1b1cfb87]" name="Addpayee" duration-ms="947" started-at="2019-12-05T00:39:13Z" data-provider="credentials" finished-at="2019-12-05T00:39:14Z">
           <params>
             <param index="0">
               <value>
@@ -412,7 +412,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:451)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Addpayee -->
-        <test-method status="PASS" signature="Addpayee(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:datadriventestcases.AddPayee_datadriven@1b1cfb87]" name="Addpayee" duration-ms="1254" started-at="2019-12-04T21:11:50Z" data-provider="credentials" finished-at="2019-12-04T21:11:51Z">
+        <test-method status="PASS" signature="Addpayee(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:datadriventestcases.AddPayee_datadriven@1b1cfb87]" name="Addpayee" duration-ms="826" started-at="2019-12-05T00:39:14Z" data-provider="credentials" finished-at="2019-12-05T00:39:15Z">
           <params>
             <param index="0">
               <value>
@@ -438,7 +438,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:451)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Addpayee -->
-        <test-method status="PASS" signature="Addpayee(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:datadriventestcases.AddPayee_datadriven@1b1cfb87]" name="Addpayee" duration-ms="1365" started-at="2019-12-04T21:11:51Z" data-provider="credentials" finished-at="2019-12-04T21:11:52Z">
+        <test-method status="PASS" signature="Addpayee(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:datadriventestcases.AddPayee_datadriven@1b1cfb87]" name="Addpayee" duration-ms="897" started-at="2019-12-05T00:39:15Z" data-provider="credentials" finished-at="2019-12-05T00:39:16Z">
           <params>
             <param index="0">
               <value>
@@ -464,7 +464,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:451)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Addpayee -->
-        <test-method status="PASS" signature="endpayee()[pri:3, instance:datadriventestcases.AddPayee_datadriven@1b1cfb87]" name="endpayee" duration-ms="674" started-at="2019-12-04T21:11:53Z" finished-at="2019-12-04T21:11:53Z">
+        <test-method status="PASS" signature="endpayee()[pri:3, instance:datadriventestcases.AddPayee_datadriven@1b1cfb87]" name="endpayee" duration-ms="979" started-at="2019-12-05T00:39:16Z" finished-at="2019-12-05T00:39:17Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- endpayee -->
