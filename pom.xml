@@ -119,6 +119,7 @@
 					<suiteXmlFiles>
 					    <suiteXmlFile>src/test/resources/runner/Login_data-driven.xml</suiteXmlFile>
 						<suiteXmlFile>src/test/resources/runner/AddPayee_Function.xml</suiteXmlFile>
+						<suiteXmlFile>src/test/resources/runner/Smoke.xml</suiteXmlFile>
 						<suiteXmlFile>src/test/resources/runner/Regression.xml</suiteXmlFile>
 					</suiteXmlFiles>
 					</configuration>

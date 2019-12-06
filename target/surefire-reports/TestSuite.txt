@@ -1,16 +1,16 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 18, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 97.63 s <<< FAILURE! - in TestSuite
-datadriventestcases.LoginDataDriven.login  Time elapsed: 1.18 s  <<< FAILURE!
+Tests run: 20, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 124.935 s <<< FAILURE! - in TestSuite
+datadriventestcases.LoginDataDriven.login  Time elapsed: 1.082 s  <<< FAILURE!
 java.lang.AssertionError: expected [Zero - Log in] but found [Zero - Account Summary]
 	at datadriventestcases.LoginDataDriven.login(LoginDataDriven.java:32)
 
-datadriventestcases.LoginDataDriven.login  Time elapsed: 0.898 s  <<< FAILURE!
+datadriventestcases.LoginDataDriven.login  Time elapsed: 0.989 s  <<< FAILURE!
 java.lang.AssertionError: expected [Zero - Log in] but found [Zero - Account Summary]
 	at datadriventestcases.LoginDataDriven.login(LoginDataDriven.java:32)
 
-datadriventestcases.LoginDataDriven.login  Time elapsed: 0.899 s  <<< FAILURE!
+datadriventestcases.LoginDataDriven.login  Time elapsed: 0.949 s  <<< FAILURE!
 java.lang.AssertionError: expected [Zero - Log in] but found [Zero - Account Summary]
 	at datadriventestcases.LoginDataDriven.login(LoginDataDriven.java:32)
 

@@ -1,53 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="7" passed="7">
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Presentation for ZeroBanking" duration-ms="64769" started-at="2019-12-04T16:18:43 EST" finished-at="2019-12-04T16:19:48 EST">
+  <suite name="Default suite" duration-ms="11488" started-at="2019-12-06T08:58:21 EST" finished-at="2019-12-06T08:58:33 EST">
     <groups>
     </groups>
-    <test name="Regression" duration-ms="64769" started-at="2019-12-04T16:18:43 EST" finished-at="2019-12-04T16:19:48 EST">
-      <class name="functionaltestcases.FindTransactionTestCase">
-        <test-method status="PASS" signature="Findtr()[pri:0, instance:functionaltestcases.FindTransactionTestCase@5149d738]" name="Findtr" duration-ms="9481" started-at="2019-12-04T16:19:22 EST" finished-at="2019-12-04T16:19:32 EST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Findtr -->
-      </class> <!-- functionaltestcases.FindTransactionTestCase -->
-      <class name="functionaltestcases.ShowTransactionTestCase">
-        <test-method status="PASS" signature="showtr()[pri:0, instance:functionaltestcases.ShowTransactionTestCase@53045c6c]" name="showtr" duration-ms="10771" started-at="2019-12-04T16:19:11 EST" finished-at="2019-12-04T16:19:22 EST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- showtr -->
-      </class> <!-- functionaltestcases.ShowTransactionTestCase -->
-      <class name="functionaltestcases.AddPayeeTestCase">
-        <test-method status="PASS" signature="Addpayee()[pri:0, instance:functionaltestcases.AddPayeeTestCase@19e4653c]" name="Addpayee" duration-ms="7095" started-at="2019-12-04T16:18:54 EST" finished-at="2019-12-04T16:19:01 EST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Addpayee -->
-      </class> <!-- functionaltestcases.AddPayeeTestCase -->
-      <class name="functionaltestcases.PurchaseFCurrencyTestCase">
-        <test-method status="PASS" signature="PurchaseCur()[pri:0, instance:functionaltestcases.PurchaseFCurrencyTestCase@795509d9]" name="PurchaseCur" duration-ms="9870" started-at="2019-12-04T16:19:01 EST" finished-at="2019-12-04T16:19:11 EST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- PurchaseCur -->
-      </class> <!-- functionaltestcases.PurchaseFCurrencyTestCase -->
-      <class name="functionaltestcases.AccountSummaryTestCase">
-        <test-method status="PASS" signature="showAcc()[pri:0, instance:functionaltestcases.AccountSummaryTestCase@663c9e7a]" name="showAcc" duration-ms="11140" started-at="2019-12-04T16:18:43 EST" finished-at="2019-12-04T16:18:54 EST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- showAcc -->
-      </class> <!-- functionaltestcases.AccountSummaryTestCase -->
-      <class name="functionaltestcases.TransferFundTestCase">
-        <test-method status="PASS" signature="transferfunds()[pri:0, instance:functionaltestcases.TransferFundTestCase@3a7442c7]" name="transferfunds" duration-ms="7262" started-at="2019-12-04T16:19:40 EST" finished-at="2019-12-04T16:19:47 EST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- transferfunds -->
-      </class> <!-- functionaltestcases.TransferFundTestCase -->
+    <test name="Default test" duration-ms="11488" started-at="2019-12-06T08:58:21 EST" finished-at="2019-12-06T08:58:33 EST">
       <class name="functionaltestcases.PaySavedPayeeTestCase">
-        <test-method status="PASS" signature="PayPayee()[pri:0, instance:functionaltestcases.PaySavedPayeeTestCase@6bbe85a8]" name="PayPayee" duration-ms="8299" started-at="2019-12-04T16:19:32 EST" finished-at="2019-12-04T16:19:40 EST">
+        <test-method status="PASS" signature="PayPayee()[pri:0, instance:functionaltestcases.PaySavedPayeeTestCase@53ce1329]" name="PayPayee" duration-ms="11433" started-at="2019-12-06T08:58:21 EST" finished-at="2019-12-06T08:58:33 EST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- PayPayee -->
       </class> <!-- functionaltestcases.PaySavedPayeeTestCase -->
-    </test> <!-- Regression -->
-  </suite> <!-- Presentation for ZeroBanking -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

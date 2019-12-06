@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Presentation for ZeroBanking">
+<listeners>
+
+		<listener class-name="listeners.CustomListeners" />
+		<listener class-name="org.uncommons.reportng.HTMLReporter" />
+
+	</listeners>
+  <test thread-count="5" name="Smoke">
+    <classes>
+      <class name="functionaltestcases.PaySavedPayeeTestCase"/>
+      <class name="functionaltestcases.ShowTransactionTestCase"/>
+    </classes>
+  </test> <!-- Smoke -->
+</suite> <!-- Suite -->

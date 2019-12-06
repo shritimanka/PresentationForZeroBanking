@@ -1,5 +1,6 @@
 package pages;
 
+import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -82,6 +83,7 @@ public class PaySavedPayeePage extends Startup {
 			log.debug("select date");
 			test.log(LogStatus.INFO, "choose date ");
 			payeedate.sendKeys(mydate);
+			payeedate.sendKeys(Keys.TAB);
 			
 			log.debug("Enter the description");
 			test.log(LogStatus.INFO, "Enter the description");
